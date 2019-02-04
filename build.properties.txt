@@ -1,0 +1,15 @@
+# build.properties
+#
+
+# Specify the login credentials for TEST Salesforce organization
+sf.usernameRetrieve = surgeorge@deloitte.com
+sf.passwordRetrieve = Surya#1996
+sf.serverurlRetrieve = https://login.salesforce.com 
+
+# Specify the login credentials for PRODUCTION Salesforce organization
+
+sf.usernameDeploy = surgeorge@deloitte.com
+sf.passwordDeploy = Surya#1996
+sf.serverurlDeploy = https://login.salesforce.com
+sf.maxPoll = 20
+

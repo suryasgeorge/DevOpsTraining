@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+	<!--  <ReportFolder xmlns="http://soap.sforce.com/2006/04/metadata">
+    <accessType>Public</accessType>
+    <publicFolderAccess>ReadWrite</publicFolderAccess>
+      <name>DPC Reports</name>
+  </ReportFolder> -->
+   <types>
+<members>TestClass</members>
+<name>ApexClass</name>
+</types>
+<types>
+<members>TestClass</members>
+<name>ApexTrigger</name>
+</types>
+<types>
+<members>Edit_Account</members>
+<name>ApexPage</name>
+</types>
+<!-- <types>
+<members>Account.Country_Change_New</members>
+<name>WorkflowFieldUpdate</name>
+</types>
+<types>
+<members>Account.Test_Mail1</members>
+<name>WorkflowAlert</name>
+</types>
+<types>
+<members>Account.DeployTest</members>
+<name>WorkflowRule</name>
+</types> -->
+<types>
+<members>DeployTestProcess-1</members>
+<name>Flow</name>
+</types>
+
+<types>
+<members>Quick_Account-1</members>
+<name>Flow</name>
+</types>   
+<types>
+<members>Faculty__c</members>
+<name>CustomObject</name>
+</types>
+<types>
+<members>Faculty</members>
+<name>Profile</name>
+</types>
+<types>
+<members>unfiled$public/DeployTest2</members>
+<members>unfiled$public/DeployTest3</members>
+<members>unfiled$public/DeployTest4</members>
+
+<name>Report</name>
+</types>
+<!-- <types>
+	<members>TestDashboard</members>
+	<name>DashboardFolder</name>
+	</types> -->
+	<types>
+		<members>TestDashboard</members>
+        <members>TestDashboard/DeployDashboard</members>
+        <name>Dashboard</name>
+    </types>
+    <version>41.0</version>
+</Package>
