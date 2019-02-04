@@ -57,10 +57,10 @@
 	<members>TestDashboard</members>
 	<name>DashboardFolder</name>
 	</types> -->
-	<types>
+	<!--<types>
 		<members>TestDashboard</members>
         <members>TestDashboard/DeployDashboard</members>
         <name>Dashboard</name>
-    </types>
+    </types>-->
     <version>41.0</version>
 </Package>
